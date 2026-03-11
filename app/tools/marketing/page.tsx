@@ -1,57 +1,81 @@
 // 由 OpenClaw 自动生成 - 2026-03-11
 export const metadata = {
-  title: '2026年最佳AI营销工具推荐',
-  description: '发现最新、最热门的AI营销工具，包括HubSpot AI、SurferSEO 3.0等。实时更新，助你提高工作效率。',
-  keywords: 'AI营销工具,HubSpot AI,SurferSEO 3.0,人工智能,营销软件',
+  title: '2026年最新AI营销工具推荐',
+  description: '实时从ProductHunt抓取最新AI营销工具，包括Corporate Social、SEO & GEO Optimizer、PipeChecker by Little Post Manager等。每日更新，发现创新产品。',
+  keywords: 'AI营销工具,Corporate Social,SEO & GEO Optimizer,PipeChecker by Little Post Manager,人工智能,营销软件',
 };
 
 export default function MarketingTools() {
   const tools = [
   {
-    "name": "HubSpot AI",
+    "name": "Corporate Social",
     "category": "marketing",
-    "description": "AI驱动的营销自动化平台",
-    "url": "https://www.hubspot.com",
-    "rating": 4.5,
+    "description": "New insights and informed opinions from professionals ",
+    "url": "https://www.producthunt.com/r/FL5B4ZH7BAHKN6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.5,
+    "votes": 1,
     "tags": [
-      "营销",
-      "CRM",
-      "自动化"
-    ]
+      "Social Media",
+      "Marketing",
+      "Social Networking"
+    ],
+    "source": "producthunt",
+    "sourceId": "1093391",
+    "createdAt": "2026-03-10T07:01:00Z"
   },
   {
-    "name": "SurferSEO 3.0",
+    "name": "SEO & GEO Optimizer",
     "category": "marketing",
-    "description": "AI SEO优化工具，实时分析",
-    "url": "https://surferseo.com",
-    "rating": 4.6,
+    "description": "SEO & AI search skill for any IDE -  one prompt, full audit",
+    "url": "https://www.producthunt.com/r/VNXNW7PMI7SLFB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.5,
+    "votes": 1,
     "tags": [
+      "Marketing",
       "SEO",
-      "内容优化",
-      "分析"
-    ]
+      "GitHub"
+    ],
+    "source": "producthunt",
+    "sourceId": "1085645",
+    "createdAt": "2026-03-10T07:01:00Z"
+  },
+  {
+    "name": "PipeChecker by Little Post Manager",
+    "category": "marketing",
+    "description": "Brutally honest sales pipeline review",
+    "url": "https://www.producthunt.com/r/KKBHLCBA5TEX3G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.5,
+    "votes": 0,
+    "tags": [
+      "Sales",
+      "Artificial Intelligence"
+    ],
+    "source": "producthunt",
+    "sourceId": "1093522",
+    "createdAt": "2026-03-10T07:01:00Z"
   }
 ];
 
   return (
     <main className="container mx-auto px-4 py-8">
-      {/* 面包屑导航 - 利于SEO */}
       <nav className="text-sm text-gray-500 mb-4">
         <a href="/" className="hover:text-blue-500">首页</a> &gt; 
         <a href="/tools" className="hover:text-blue-500">AI工具</a> &gt; 
         <span>AI营销工具</span>
       </nav>
 
-      {/* H1标题 */}
-      <h1 className="text-4xl font-bold mb-4">2026年最佳AI营销工具推荐</h1>
+      <div className="flex justify-between items-center mb-4">
+        <h1 className="text-4xl font-bold">最新AI营销工具</h1>
+        <div className="text-sm text-gray-400">
+          最后更新：2026/3/11
+        </div>
+      </div>
       
-      {/* 导读段落 */}
       <p className="text-xl text-gray-600 mb-8">
-        我们为您精选了2款最受欢迎的AI营销工具，从初学者到专业人士都能找到适合的选择。
-        所有工具信息实时更新，确保您获得最新、最准确的数据。
+        我们从ProductHunt实时抓取了最新、最热门的AI营销工具，共3款。
+        每天更新，确保你第一时间发现创新产品。
       </p>
 
-      {/* 工具分类导航 */}
       <div className="flex flex-wrap gap-3 mb-8">
         <a href="/tools/writing" className="px-4 py-2 bg-blue-50 text-blue-600 rounded-full hover:bg-blue-100">✍️ 写作工具</a>
         <a href="/tools/image" className="px-4 py-2 bg-purple-50 text-purple-600 rounded-full hover:bg-purple-100">🎨 图像工具</a>
@@ -59,19 +83,19 @@ export default function MarketingTools() {
         <a href="/tools/marketing" className="px-4 py-2 bg-orange-50 text-orange-600 rounded-full hover:bg-orange-100">📊 营销工具</a>
       </div>
 
-      {/* 工具网格 */}
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">HubSpot AI</h2>
-      <p class="text-gray-600 mb-4">AI驱动的营销自动化平台</p>
+      <h2 class="text-2xl font-semibold mb-2">Corporate Social</h2>
+      <p class="text-gray-600 mb-4">New insights and informed opinions from professionals </p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">营销</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">CRM</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">自动化</span>
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Social Media</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Marketing</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Social Networking</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 1 票</span>
       </div>
       <div class="flex items-center justify-between">
-        <span class="text-yellow-500">⭐ 4.5</span>
+        <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.hubspot.com" 
+          href="https://www.producthunt.com/r/FL5B4ZH7BAHKN6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -82,15 +106,36 @@ export default function MarketingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">SurferSEO 3.0</h2>
-      <p class="text-gray-600 mb-4">AI SEO优化工具，实时分析</p>
+      <h2 class="text-2xl font-semibold mb-2">SEO & GEO Optimizer</h2>
+      <p class="text-gray-600 mb-4">SEO & AI search skill for any IDE -  one prompt, full audit</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">SEO</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">内容优化</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">分析</span>
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Marketing</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">SEO</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">GitHub</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 1 票</span>
       </div>
       <div class="flex items-center justify-between">
-        <span class="text-yellow-500">⭐ 4.6</span>
+        <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://surferseo.com" 
+          href="https://www.producthunt.com/r/VNXNW7PMI7SLFB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          target="_blank" 
+          rel="nofollow sponsored"
+          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+        >
+          访问官网
+        </a>
+      </div>
+    </div>
+  
+    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
+      <h2 class="text-2xl font-semibold mb-2">PipeChecker by Little Post Manager</h2>
+      <p class="text-gray-600 mb-4">Brutally honest sales pipeline review</p>
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Sales</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
+        
+      </div>
+      <div class="flex items-center justify-between">
+        <span class="text-yellow-500">⭐ 3.5</span>
+        <a 
+          href="https://www.producthunt.com/r/KKBHLCBA5TEX3G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -102,31 +147,8 @@ export default function MarketingTools() {
   
       </div>
 
-      {/* FAQ部分 - 利于长尾词排名 */}
-      <div className="mt-16">
-        <h2 className="text-3xl font-bold mb-6">关于AI营销工具的常见问题</h2>
-        
-        <div className="space-y-4">
-          <div className="border rounded-lg p-4">
-            <h3 className="text-xl font-semibold mb-2">什么是AI营销工具？</h3>
-            <p className="text-gray-600">AI营销工具是利用人工智能技术帮助用户优化营销策略和广告投放的软件。它们能大幅提高工作效率，降低创作门槛。</p>
-          </div>
-          
-          <div className="border rounded-lg p-4">
-            <h3 className="text-xl font-semibold mb-2">如何选择适合的AI营销工具？</h3>
-            <p className="text-gray-600">选择AI营销工具时，需要考虑您的具体需求、预算、技术水平和团队规模。初学者可以从HubSpot AI开始尝试，专业用户可以选择SurferSEO 3.0。</p>
-          </div>
-          
-          <div className="border rounded-lg p-4">
-            <h3 className="text-xl font-semibold mb-2">AI营销工具是免费的吗？</h3>
-            <p className="text-gray-600">大部分AI营销工具提供免费试用版或基础功能免费版，高级功能需要付费订阅。我们推荐的每个工具都有详细的定价信息，点击"访问官网"按钮可以查看最新价格。</p>
-          </div>
-        </div>
-      </div>
-
-      {/* 更新说明 */}
-      <div className="mt-8 text-sm text-gray-400 text-center">
-        最后更新时间：2026/3/11 | 由OpenClaw自动生成，确保信息最新
+      <div className="mt-8 text-sm text-gray-400 text-center border-t pt-8">
+        数据来源：ProductHunt API | 由OpenClaw自动抓取更新
       </div>
     </main>
   );
