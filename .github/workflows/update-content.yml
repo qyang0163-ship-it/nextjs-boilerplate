@@ -12,22 +12,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: 设置 Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
       
       - name: 安装依赖
-        run: npm install || echo "没有依赖，继续执行"
+        run: |
+          npm install || true
+          echo "依赖安装完成"
       
       - name: 运行 OpenClaw
         run: node openclaw-generate.js
       
-      - name: 提交更改
+      - name: 配置 Git
         run: |
           git config --global user.name "OpenClaw Bot"
           git config --global user.email "bot@openclaw.com"
+      
+      - name: 提交更改
+        run: |
           git add app/tools/
-          git diff --staged --quiet || (git commit -m "🤖 OpenClaw 自动更新工具内容 $(date '+%Y-%m-%d')" && git push)
+          if git diff --staged --quiet; then
+            echo "没有内容更新"
+          else
+            git commit -m "🤖 OpenClaw 自动更新工具内容 $(date '+%Y-%m-%d')"
+            git push
+            echo "✅ 更新已提交"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
