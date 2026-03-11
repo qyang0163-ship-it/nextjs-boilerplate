@@ -1,58 +1,89 @@
 // 由 OpenClaw 自动生成 - 2026-03-11
 export const metadata = {
   title: '2026年最新AI营销工具推荐',
-  description: '实时从ProductHunt抓取最新AI营销工具，包括Corporate Social、SEO & GEO Optimizer、PipeChecker by Little Post Manager等。每日更新，发现创新产品。',
-  keywords: 'AI营销工具,Corporate Social,SEO & GEO Optimizer,PipeChecker by Little Post Manager,人工智能,营销软件',
+  description: '实时从ProductHunt抓取最新AI营销工具，包括SetSmart.io、VendorLoop、Shopify Agency Directory等。每日更新，发现创新产品。',
+  keywords: 'AI营销工具,SetSmart.io,VendorLoop,Shopify Agency Directory,SalesTrace,Tempest Advertising,人工智能,营销软件',
 };
 
 export default function MarketingTools() {
   const tools = [
   {
-    "name": "Corporate Social",
+    "name": "SetSmart.io",
     "category": "marketing",
-    "description": "New insights and informed opinions from professionals ",
-    "url": "https://www.producthunt.com/r/FL5B4ZH7BAHKN6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
-    "rating": 3.5,
-    "votes": 1,
-    "tags": [
-      "Social Media",
-      "Marketing",
-      "Social Networking"
-    ],
-    "source": "producthunt",
-    "sourceId": "1093391",
-    "createdAt": "2026-03-10T07:01:00Z"
-  },
-  {
-    "name": "SEO & GEO Optimizer",
-    "category": "marketing",
-    "description": "SEO & AI search skill for any IDE -  one prompt, full audit",
-    "url": "https://www.producthunt.com/r/VNXNW7PMI7SLFB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
-    "rating": 3.5,
-    "votes": 1,
-    "tags": [
-      "Marketing",
-      "SEO",
-      "GitHub"
-    ],
-    "source": "producthunt",
-    "sourceId": "1085645",
-    "createdAt": "2026-03-10T07:01:00Z"
-  },
-  {
-    "name": "PipeChecker by Little Post Manager",
-    "category": "marketing",
-    "description": "Brutally honest sales pipeline review",
-    "url": "https://www.producthunt.com/r/KKBHLCBA5TEX3G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "AI sales setter that qualifies leads & books calls 24/7",
+    "url": "https://www.producthunt.com/r/OQGQJRXMFGBBMG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
     "votes": 0,
     "tags": [
       "Sales",
+      "SaaS",
       "Artificial Intelligence"
     ],
     "source": "producthunt",
-    "sourceId": "1093522",
-    "createdAt": "2026-03-10T07:01:00Z"
+    "sourceId": "1071684",
+    "createdAt": "2026-03-11T07:01:00Z"
+  },
+  {
+    "name": "VendorLoop",
+    "category": "marketing",
+    "description": "SMS marketing built for food trucks and market vendors",
+    "url": "https://www.producthunt.com/r/XD34NGPAUE6Z5Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.5,
+    "votes": 0,
+    "tags": [
+      "Marketing",
+      "SaaS",
+      "Food & Drink"
+    ],
+    "source": "producthunt",
+    "sourceId": "1094674",
+    "createdAt": "2026-03-11T07:01:00Z"
+  },
+  {
+    "name": "Shopify Agency Directory",
+    "category": "marketing",
+    "description": "Discover trusted Shopify agencies, all in one place.",
+    "url": "https://www.producthunt.com/r/2OGQ55KYR3OYHW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.5,
+    "votes": 0,
+    "tags": [
+      "Marketing",
+      "E-Commerce",
+      "Development"
+    ],
+    "source": "producthunt",
+    "sourceId": "1094643",
+    "createdAt": "2026-03-11T07:01:00Z"
+  },
+  {
+    "name": "SalesTrace",
+    "category": "marketing",
+    "description": "Helps you practice sales without losing real deals",
+    "url": "https://www.producthunt.com/r/ANPH3QIPG6KUK5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.5,
+    "votes": 0,
+    "tags": [
+      "Productivity",
+      "Sales",
+      "Marketing"
+    ],
+    "source": "producthunt",
+    "sourceId": "1094644",
+    "createdAt": "2026-03-11T07:01:00Z"
+  },
+  {
+    "name": "Tempest Advertising",
+    "category": "marketing",
+    "description": "Digital Marketing & Advertising Agency in India ",
+    "url": "https://www.producthunt.com/r/ROFP3MOZRMRTPM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.5,
+    "votes": 0,
+    "tags": [
+      "Marketing"
+    ],
+    "source": "producthunt",
+    "sourceId": "1094177",
+    "createdAt": "2026-03-11T07:01:00Z"
   }
 ];
 
@@ -72,7 +103,7 @@ export default function MarketingTools() {
       </div>
       
       <p className="text-xl text-gray-600 mb-8">
-        我们从ProductHunt实时抓取了最新、最热门的AI营销工具，共3款。
+        我们从ProductHunt实时抓取了最新、最热门的AI营销工具，共5款。
         每天更新，确保你第一时间发现创新产品。
       </p>
 
@@ -86,56 +117,96 @@ export default function MarketingTools() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">Corporate Social</h2>
-      <p class="text-gray-600 mb-4">New insights and informed opinions from professionals </p>
+      <h2 class="text-2xl font-semibold mb-2">SetSmart.io</h2>
+      <p class="text-gray-600 mb-4">AI sales setter that qualifies leads & books calls 24/7</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Social Media</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Marketing</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Social Networking</span>
-        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 1 票</span>
-      </div>
-      <div class="flex items-center justify-between">
-        <span class="text-yellow-500">⭐ 3.5</span>
-        <a 
-          href="https://www.producthunt.com/r/FL5B4ZH7BAHKN6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
-          target="_blank" 
-          rel="nofollow sponsored"
-          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
-        >
-          访问官网
-        </a>
-      </div>
-    </div>
-  
-    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">SEO & GEO Optimizer</h2>
-      <p class="text-gray-600 mb-4">SEO & AI search skill for any IDE -  one prompt, full audit</p>
-      <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Marketing</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">SEO</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">GitHub</span>
-        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 1 票</span>
-      </div>
-      <div class="flex items-center justify-between">
-        <span class="text-yellow-500">⭐ 3.5</span>
-        <a 
-          href="https://www.producthunt.com/r/VNXNW7PMI7SLFB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
-          target="_blank" 
-          rel="nofollow sponsored"
-          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
-        >
-          访问官网
-        </a>
-      </div>
-    </div>
-  
-    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">PipeChecker by Little Post Manager</h2>
-      <p class="text-gray-600 mb-4">Brutally honest sales pipeline review</p>
-      <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Sales</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Sales</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">SaaS</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
         
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/KKBHLCBA5TEX3G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/OQGQJRXMFGBBMG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          target="_blank" 
+          rel="nofollow sponsored"
+          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+        >
+          访问官网
+        </a>
+      </div>
+    </div>
+  
+    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
+      <h2 class="text-2xl font-semibold mb-2">VendorLoop</h2>
+      <p class="text-gray-600 mb-4">SMS marketing built for food trucks and market vendors</p>
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Marketing</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">SaaS</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Food & Drink</span>
+        
+      </div>
+      <div class="flex items-center justify-between">
+        <span class="text-yellow-500">⭐ 3.5</span>
+        <a 
+          href="https://www.producthunt.com/r/XD34NGPAUE6Z5Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          target="_blank" 
+          rel="nofollow sponsored"
+          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+        >
+          访问官网
+        </a>
+      </div>
+    </div>
+  
+    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
+      <h2 class="text-2xl font-semibold mb-2">Shopify Agency Directory</h2>
+      <p class="text-gray-600 mb-4">Discover trusted Shopify agencies, all in one place.</p>
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Marketing</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">E-Commerce</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Development</span>
+        
+      </div>
+      <div class="flex items-center justify-between">
+        <span class="text-yellow-500">⭐ 3.5</span>
+        <a 
+          href="https://www.producthunt.com/r/2OGQ55KYR3OYHW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          target="_blank" 
+          rel="nofollow sponsored"
+          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+        >
+          访问官网
+        </a>
+      </div>
+    </div>
+  
+    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
+      <h2 class="text-2xl font-semibold mb-2">SalesTrace</h2>
+      <p class="text-gray-600 mb-4">Helps you practice sales without losing real deals</p>
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Productivity</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Sales</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Marketing</span>
+        
+      </div>
+      <div class="flex items-center justify-between">
+        <span class="text-yellow-500">⭐ 3.5</span>
+        <a 
+          href="https://www.producthunt.com/r/ANPH3QIPG6KUK5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          target="_blank" 
+          rel="nofollow sponsored"
+          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+        >
+          访问官网
+        </a>
+      </div>
+    </div>
+  
+    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
+      <h2 class="text-2xl font-semibold mb-2">Tempest Advertising</h2>
+      <p class="text-gray-600 mb-4">Digital Marketing & Advertising Agency in India </p>
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Marketing</span>
+        
+      </div>
+      <div class="flex items-center justify-between">
+        <span class="text-yellow-500">⭐ 3.5</span>
+        <a 
+          href="https://www.producthunt.com/r/ROFP3MOZRMRTPM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
