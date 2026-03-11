@@ -77,7 +77,7 @@ export default function Home() {
                 </div>
                 <p className="text-gray-600 mb-4">{tool.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {tool.tags?.slice(0, 2).map((tag: string) => (
+                  {tool.tags?.slice(0, 2).map((tag: string) => (   // 👈 关键修复：为 tag 添加类型注解
                     <span key={tag} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">{tag}</span>
                   ))}
                   <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 {tool.votes || 0} 票</span>
