@@ -1,4 +1,4 @@
-// app/page.tsx
+// app/page.tsx - 最简稳定版
 import Link from 'next/link';
 
 export default function Home() {
