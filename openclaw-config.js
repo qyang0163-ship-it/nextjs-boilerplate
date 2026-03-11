@@ -5,7 +5,7 @@ module.exports = {
   // 你的网站基本信息
   site: {
     name: 'AI Tool Guide',          // 你的网站名字
-    url: 'https://www.aitoolguide.tech',  // ⚠️ 重要：改成你的真实网址
+    url: 'https://aitoolguide.tech',  // ⚠️ 重要：改成你的真实网址
     description: '发现全球最好的AI工具'
   },
 
