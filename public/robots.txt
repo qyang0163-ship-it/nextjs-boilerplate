@@ -1,0 +1,5 @@
+# https://aitoolguide.tech/robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://aitoolguide.tech/sitemap.xml
