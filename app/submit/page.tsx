@@ -4,11 +4,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-export const metadata = {
-  title: '提交AI工具 - AI Tool Guide',
-  description: '推荐你喜欢的AI工具，帮助更多人发现它',
-};
-
 export default function SubmitPage() {
   const [formData, setFormData] = useState({
     name: '',
