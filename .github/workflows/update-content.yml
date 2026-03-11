@@ -1,0 +1,33 @@
+name: OpenClaw 自动更新内容
+
+on:
+  # 允许手动触发
+  workflow_dispatch:
+  # 每天自动运行（北京时间早上8点）
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+      
+      - name: 设置 Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      
+      - name: 安装依赖
+        run: npm install || echo "没有依赖，继续执行"
+      
+      - name: 运行 OpenClaw
+        run: node openclaw-generate.js
+      
+      - name: 提交更改
+        run: |
+          git config --global user.name "OpenClaw Bot"
+          git config --global user.email "bot@openclaw.com"
+          git add app/tools/
+          git diff --staged --quiet || (git commit -m "🤖 OpenClaw 自动更新工具内容 $(date '+%Y-%m-%d')" && git push)
