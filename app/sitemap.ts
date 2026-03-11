@@ -2,21 +2,23 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://aitoolguide.tech'
+  const baseUrl = 'https://www.aitoolguide.tech'
   
-  // 基础页面
+  // 定义所有静态页面
   const pages = [
-    '',
-    '/tools/writing',
-    '/tools/image', 
-    '/tools/video',
-    '/tools/marketing',
-  ].map(route => ({
-    url: `${baseUrl}${route}`,
-    lastModified: new Date(),
-    changeFrequency: 'daily' as const,
-    priority: route === '' ? 1.0 : 0.8,
-  }))
+    { path: '', priority: 1.0, changeFreq: 'daily' },
+    { path: '/about', priority: 0.8, changeFreq: 'weekly' },
+    { path: '/submit', priority: 0.8, changeFreq: 'weekly' },
+    { path: '/tools/writing', priority: 0.8, changeFreq: 'daily' },
+    { path: '/tools/image', priority: 0.8, changeFreq: 'daily' },
+    { path: '/tools/video', priority: 0.8, changeFreq: 'daily' },
+    { path: '/tools/marketing', priority: 0.8, changeFreq: 'daily' },
+  ]
 
-  return pages
+  return pages.map(page => ({
+    url: `${baseUrl}${page.path}`,
+    lastModified: new Date(),
+    changeFrequency: page.changeFreq as 'daily' | 'weekly',
+    priority: page.priority,
+  }))
 }
