@@ -1,132 +1,183 @@
-// app/submit/page.tsx
-'use client';
-
-import { useState } from 'react';
+// app/page.tsx
 import Link from 'next/link';
+import { getLatestTools } from '@/lib/getTools';
 
-export default function SubmitPage() {
-  const [formData, setFormData] = useState({
-    name: '',
-    url: '',
-    description: '',
-    category: 'writing',
-    email: '',
-  });
-  const [submitted, setSubmitted] = useState(false);
+// 分类数据
+const categories = [
+  { id: 'writing', name: '写作工具', icon: '✍️', color: 'bg-blue-50 text-blue-600' },
+  { id: 'image', name: '图像工具', icon: '🎨', color: 'bg-purple-50 text-purple-600' },
+  { id: 'video', name: '视频工具', icon: '🎬', color: 'bg-green-50 text-green-600' },
+  { id: 'marketing', name: '营销工具', icon: '📊', color: 'bg-orange-50 text-orange-600' },
+];
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // 这里可以集成表单后端服务，例如 Formspree、Getform 等
-    // 简单起见，我们只显示成功提示，实际可发邮件到你的邮箱
-    console.log('提交的工具：', formData);
-    setSubmitted(true);
-    // 清空表单（可选）
-    setFormData({ name: '', url: '', description: '', category: 'writing', email: '' });
-  };
-
-  if (submitted) {
-    return (
-      <main className="container mx-auto px-4 py-12 max-w-2xl text-center">
-        <div className="bg-green-50 border border-green-200 rounded-lg p-8">
-          <h1 className="text-3xl font-bold text-green-700 mb-4">提交成功！</h1>
-          <p className="text-gray-600 mb-6">感谢你的推荐，我们会尽快审核并添加。</p>
-          <Link href="/" className="text-blue-500 hover:underline">
-            返回首页
-          </Link>
-        </div>
-      </main>
-    );
-  }
+export default function Home() {
+  // 获取最新6个工具
+  const latestTools = getLatestTools(6);
 
   return (
-    <main className="container mx-auto px-4 py-12 max-w-2xl">
-      <h1 className="text-4xl font-bold mb-4">提交AI工具</h1>
-      <p className="text-gray-600 mb-8">
-        推荐你喜欢的AI工具，帮助更多人发现它。提交后我们会尽快审核。
-      </p>
-
-      <form onSubmit={handleSubmit} className="space-y-6">
-        <div>
-          <label className="block mb-2 font-medium">工具名称 *</label>
-          <input
-            type="text"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-            className="w-full border rounded-lg p-3 focus:ring-2 focus:ring-blue-500 outline-none"
-            placeholder="例如：ChatGPT"
-          />
+    <main className="min-h-screen">
+      {/* 英雄区域 */}
+      <section className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-5xl font-bold mb-6">AI Tool Guide</h1>
+          <p className="text-2xl mb-8 max-w-2xl mx-auto">
+            发现全球最好的AI工具，每日自动更新
+          </p>
+          <div className="flex gap-4 justify-center">
+            <a 
+              href="#latest" 
+              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
+            >
+              浏览最新工具
+            </a>
+            <Link 
+              href="/tools/writing" 
+              className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition"
+            >
+              查看所有工具
+            </Link>
+          </div>
         </div>
+      </section>
 
-        <div>
-          <label className="block mb-2 font-medium">官网地址 *</label>
-          <input
-            type="url"
-            name="url"
-            value={formData.url}
-            onChange={handleChange}
-            required
-            className="w-full border rounded-lg p-3 focus:ring-2 focus:ring-blue-500 outline-none"
-            placeholder="https://..."
-          />
+      {/* 分类导航 */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">按分类浏览</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {categories.map((cat) => (
+              <Link 
+                key={cat.id}
+                href={`/tools/${cat.id}`}
+                className={`${cat.color} p-8 rounded-xl text-center hover:shadow-lg transition`}
+              >
+                <div className="text-4xl mb-4">{cat.icon}</div>
+                <h3 className="text-2xl font-semibold mb-2">{cat.name}</h3>
+                <p className="text-gray-600">查看所有工具</p>
+              </Link>
+            ))}
+          </div>
         </div>
+      </section>
 
-        <div>
-          <label className="block mb-2 font-medium">简短介绍 *</label>
-          <textarea
-            name="description"
-            value={formData.description}
-            onChange={handleChange}
-            required
-            rows={4}
-            className="w-full border rounded-lg p-3 focus:ring-2 focus:ring-blue-500 outline-none"
-            placeholder="用一两句话描述这个工具的用途和亮点"
-          />
+      {/* 最新工具推荐 */}
+      <section id="latest" className="py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-4">最新AI工具</h2>
+          <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+            每日从ProductHunt自动抓取，第一时间发现创新产品
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {latestTools.map((tool, index) => (
+              <div key={index} className="border rounded-xl p-6 hover:shadow-lg transition">
+                <div className="flex items-start justify-between mb-4">
+                  <h3 className="text-xl font-semibold">{tool.name}</h3>
+                  <span className="text-yellow-500 font-medium">⭐ {tool.rating}</span>
+                </div>
+                <p className="text-gray-600 mb-4">{tool.description}</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {tool.tags?.slice(0, 2).map((tag: string) => (
+                    <span key={tag} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">{tag}</span>
+                  ))}
+                  <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 {tool.votes || 0} 票</span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <Link 
+                    href={`/tools/${tool.category}`}
+                    className="text-blue-500 hover:text-blue-600 text-sm"
+                  >
+                    查看同类工具 →
+                  </Link>
+                  <a 
+                    href={tool.url}
+                    target="_blank"
+                    rel="nofollow sponsored"
+                    className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition text-sm"
+                  >
+                    访问官网
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+          
+          <div className="text-center mt-10">
+            <Link href="/tools/writing" className="text-blue-500 hover:underline">
+              查看更多工具 →
+            </Link>
+          </div>
         </div>
+      </section>
 
-        <div>
-          <label className="block mb-2 font-medium">分类 *</label>
-          <select
-            name="category"
-            value={formData.category}
-            onChange={handleChange}
-            className="w-full border rounded-lg p-3 focus:ring-2 focus:ring-blue-500 outline-none"
-          >
-            <option value="writing">写作工具</option>
-            <option value="image">图像工具</option>
-            <option value="video">视频工具</option>
-            <option value="marketing">营销工具</option>
-          </select>
+      {/* 广告位 */}
+      <section className="py-8 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center text-gray-400">
+            <p className="text-sm">广告位 - Google AdSense 自动展示</p>
+          </div>
         </div>
+      </section>
 
-        <div>
-          <label className="block mb-2 font-medium">你的邮箱（可选）</label>
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            className="w-full border rounded-lg p-3 focus:ring-2 focus:ring-blue-500 outline-none"
-            placeholder="用于通知审核结果"
-          />
+      {/* 为什么选择我们 */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">为什么选择AI Tool Guide？</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="text-4xl mb-4">🔄</div>
+              <h3 className="text-xl font-semibold mb-2">每日更新</h3>
+              <p className="text-gray-600">OpenClaw每天自动抓取最新AI工具，确保信息实时准确</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">✅</div>
+              <h3 className="text-xl font-semibold mb-2">真实数据</h3>
+              <p className="text-gray-600">所有工具直接来自ProductHunt，有真实投票和用户评价</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">💰</div>
+              <h3 className="text-xl font-semibold mb-2">完全免费</h3>
+              <p className="text-gray-600">为创作者提供免费的工具导航，靠广告维持运营</p>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <button
-          type="submit"
-          className="w-full bg-blue-500 text-white py-3 rounded-lg font-semibold hover:bg-blue-600 transition"
-        >
-          提交工具
-        </button>
-      </form>
-
-      <p className="text-sm text-gray-400 mt-6 text-center">
-        提交即表示你同意我们的服务条款和隐私政策。
-      </p>
+      {/* 底部导航 */}
+      <footer className="bg-gray-900 text-white py-12">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+              <h4 className="text-lg font-semibold mb-4">AI Tool Guide</h4>
+              <p className="text-gray-400 text-sm">发现全球最好的AI工具，提高工作效率</p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">快速链接</h4>
+              <ul className="space-y-2 text-gray-400 text-sm">
+                <li><Link href="/">首页</Link></li>
+                <li><Link href="/tools/writing">写作工具</Link></li>
+                <li><Link href="/tools/image">图像工具</Link></li>
+                <li><Link href="/tools/video">视频工具</Link></li>
+                <li><Link href="/tools/marketing">营销工具</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">更多</h4>
+              <ul className="space-y-2 text-gray-400 text-sm">
+                <li><Link href="/about">关于我们</Link></li>
+                <li><Link href="/submit">提交工具</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">关注我们</h4>
+              <p className="text-gray-400 text-sm">社交媒体链接占位</p>
+            </div>
+          </div>
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
+            <p>© {new Date().getFullYear()} AI Tool Guide. 由 OpenClaw 自动驱动。</p>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
