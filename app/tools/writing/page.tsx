@@ -1,246 +1,295 @@
-// 由 OpenClaw 自动生成 - 2026-03-11
+// 由 OpenClaw 自动生成 - 2026-03-12
 export const metadata = {
   title: '2026年最新AI写作工具推荐',
-  description: '实时从ProductHunt抓取最新AI写作工具，包括No more vibe coding in the blind、Delx、EchoMind等。每日更新，发现创新产品。',
-  keywords: 'AI写作工具,No more vibe coding in the blind,Delx,EchoMind,Readzip — Reading Time & Speed Tracker,Talk4Now,人工智能,写作软件',
+  description: '实时从ProductHunt抓取最新AI写作工具，包括Fort、PolyMRR、XPAND等。每日更新，发现创新产品。',
+  keywords: 'AI写作工具,Fort,PolyMRR,XPAND,Froquiz,Rise,人工智能,写作软件',
 };
 
 export default function WritingTools() {
   const tools = [
   {
-    "name": "No more vibe coding in the blind",
+    "name": "Fort",
     "category": "writing",
-    "description": "Summon your army of elves",
-    "url": "https://www.producthunt.com/r/C3O62EEQVHMNFK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
-    "rating": 4,
-    "votes": 50,
+    "description": "Fort tracks strength for people who care about longevity.",
+    "url": "https://www.producthunt.com/r/I3267GESCPKFU2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 4.1,
+    "votes": 64,
     "tags": [
-      "Open Source",
-      "Developer Tools",
-      "GitHub"
+      "Health & Fitness",
+      "Wearables",
+      "Biohacking"
     ],
     "source": "producthunt",
-    "sourceId": "1094687",
+    "sourceId": "1086746",
+    "createdAt": "2026-03-11T16:01:00Z"
+  },
+  {
+    "name": "PolyMRR",
+    "category": "writing",
+    "description": "Polymarket but for indie startups.",
+    "url": "https://www.producthunt.com/r/3HWKWT5N3K5HB2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.7,
+    "votes": 20,
+    "tags": [
+      "SaaS",
+      "Games"
+    ],
+    "source": "producthunt",
+    "sourceId": "1094275",
     "createdAt": "2026-03-11T07:01:00Z"
   },
   {
-    "name": "Delx",
+    "name": "XPAND",
     "category": "writing",
-    "description": "Ops protocol for AI agents — recovery & free tools",
-    "url": "https://www.producthunt.com/r/G6UXOAZILDUTDF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
-    "rating": 3.5,
-    "votes": 0,
+    "description": "Manages your money for you. Forget manual logging.",
+    "url": "https://www.producthunt.com/r/IDTNTXKJOITDT5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.6,
+    "votes": 9,
     "tags": [
-      "API",
-      "Developer Tools",
+      "Email",
+      "Payments",
+      "Money"
+    ],
+    "source": "producthunt",
+    "sourceId": "1094915",
+    "createdAt": "2026-03-11T07:01:00Z"
+  },
+  {
+    "name": "Froquiz",
+    "category": "writing",
+    "description": "Free quiz platform to prep for tech interviews",
+    "url": "https://www.producthunt.com/r/UQF3M7M4AVQROP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.6,
+    "votes": 7,
+    "tags": [
+      "Productivity",
+      "Education",
+      "Developer Tools"
+    ],
+    "source": "producthunt",
+    "sourceId": "1094510",
+    "createdAt": "2026-03-11T07:01:00Z"
+  },
+  {
+    "name": "Rise",
+    "category": "writing",
+    "description": "A Daily Planner for the Agentic Era.",
+    "url": "https://www.producthunt.com/r/FXYKB554IODFKX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.6,
+    "votes": 7,
+    "tags": [
+      "Productivity",
+      "Menu Bar Apps",
+      "Apple"
+    ],
+    "source": "producthunt",
+    "sourceId": "1089669",
+    "createdAt": "2026-03-11T07:01:00Z"
+  },
+  {
+    "name": "Clause",
+    "category": "writing",
+    "description": "Understand contract clauses before you sign",
+    "url": "https://www.producthunt.com/r/J3J2A5BKJ3YIP2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.5,
+    "votes": 3,
+    "tags": [
+      "SaaS",
+      "Legal",
       "Artificial Intelligence"
     ],
     "source": "producthunt",
-    "sourceId": "1094416",
+    "sourceId": "1094633",
     "createdAt": "2026-03-11T07:01:00Z"
   },
   {
-    "name": "EchoMind",
+    "name": "Gear Browser 7.0",
     "category": "writing",
-    "description": "Artificial Intelligence Data Analytics Self Improvement",
-    "url": "https://www.producthunt.com/r/GTHZQGWYCI5MZQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "Web Extension, AI features, and new design",
+    "url": "https://www.producthunt.com/r/IP4RIPEFNMXRIE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
-    "votes": 0,
+    "votes": 2,
     "tags": [
-      "Productivity",
+      "User Experience",
       "Artificial Intelligence",
-      "Data & Analytics"
+      "Tech"
     ],
     "source": "producthunt",
-    "sourceId": "1094675",
+    "sourceId": "1094947",
     "createdAt": "2026-03-11T07:01:00Z"
   },
   {
-    "name": "Readzip — Reading Time & Speed Tracker",
+    "name": "AyKa AI",
     "category": "writing",
-    "description": "Know exactly how long before you read.",
-    "url": "https://www.producthunt.com/r/LO5LNNPEKWZMPP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "WhatsApp AI chatbots & workflow automation for India",
+    "url": "https://www.producthunt.com/r/PH42XAD2Y3L36D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
-    "votes": 0,
+    "votes": 2,
     "tags": [
-      "Chrome Extensions",
       "Productivity",
-      "Education"
+      "Messaging",
+      "Artificial Intelligence"
     ],
     "source": "producthunt",
-    "sourceId": "1094517",
+    "sourceId": "1092219",
     "createdAt": "2026-03-11T07:01:00Z"
   },
   {
-    "name": "Talk4Now",
+    "name": "SwiftList",
     "category": "writing",
-    "description": "Talk4now is a language-learning platform with natives",
-    "url": "https://www.producthunt.com/r/XPPABHZCEBYESV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "Upload once. List everywhere. Earn from your aesthetic.",
+    "url": "https://www.producthunt.com/r/3YJGE5Z7FHY2FT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
-    "votes": 0,
+    "votes": 2,
+    "tags": [
+      "Artificial Intelligence",
+      "E-Commerce",
+      "YouTube"
+    ],
+    "source": "producthunt",
+    "sourceId": "1094727",
+    "createdAt": "2026-03-11T07:01:00Z"
+  },
+  {
+    "name": "Level Up Classroom",
+    "category": "writing",
+    "description": "The AI-Powered Gamified Gradebook that does EVERYTHING",
+    "url": "https://www.producthunt.com/r/QDNGWNO6INUGIV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "rating": 3.5,
+    "votes": 2,
     "tags": [
       "Education",
-      "Languages"
+      "Artificial Intelligence",
+      "Online Learning"
     ],
     "source": "producthunt",
-    "sourceId": "1094696",
+    "sourceId": "1094793",
     "createdAt": "2026-03-11T07:01:00Z"
   },
   {
-    "name": "StatementFlow AI",
+    "name": "Knottd",
     "category": "writing",
-    "description": "Turn bank statement PDFs into clean, import-ready CSVs",
-    "url": "https://www.producthunt.com/r/UMQ6HRLFZTIK6T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "Meet Franck — the world's first AI wedding planner",
+    "url": "https://www.producthunt.com/r/DZIJAERCOBLMZM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
-    "votes": 0,
+    "votes": 1,
     "tags": [
+      "Android",
       "Productivity",
-      "Fintech",
       "Artificial Intelligence"
     ],
     "source": "producthunt",
-    "sourceId": "1094689",
+    "sourceId": "1093935",
     "createdAt": "2026-03-11T07:01:00Z"
   },
   {
-    "name": "DesiPG",
+    "name": "AI Work App",
     "category": "writing",
-    "description": "Connect property owners with guests. Manage bookings.",
-    "url": "https://www.producthunt.com/r/D4PL6NYJKA6X3A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "AI Apps for Professional Work",
+    "url": "https://www.producthunt.com/r/WUUEG4OESTUGM2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
     "votes": 0,
     "tags": [
+      "Android",
       "Productivity",
-      "User Experience",
-      "Travel"
+      "Artificial Intelligence"
     ],
     "source": "producthunt",
-    "sourceId": "1094691",
+    "sourceId": "1094724",
     "createdAt": "2026-03-11T07:01:00Z"
   },
   {
-    "name": "Bariatric Surgeon UK",
+    "name": "NutriTracker",
     "category": "writing",
-    "description": "Expert Weight Loss Surgery and Bariatric Care in London",
-    "url": "https://www.producthunt.com/r/OLNM7RWK5OSNOM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "Less tracking. More coaching. Real progress.",
+    "url": "https://www.producthunt.com/r/HNQVXGBUWOH54O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
     "votes": 0,
     "tags": [
       "Health & Fitness",
-      "Health"
+      "Artificial Intelligence",
+      "Bots"
     ],
     "source": "producthunt",
-    "sourceId": "1094694",
+    "sourceId": "1094353",
     "createdAt": "2026-03-11T07:01:00Z"
   },
   {
-    "name": "DevsUnite",
+    "name": "Guitar",
     "category": "writing",
-    "description": "Resume Analysis | Mock Interview | Cover Letter | Profile",
-    "url": "https://www.producthunt.com/r/DAQCUOWWJHM7IW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "Vibe tuning LLMs",
+    "url": "https://www.producthunt.com/r/HF24FSVLS24ACR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
     "votes": 0,
     "tags": [
-      "Hiring",
-      "Tech",
-      "Career"
+      "Developer Tools",
+      "Artificial Intelligence",
+      "Vibe coding"
     ],
     "source": "producthunt",
-    "sourceId": "1094695",
+    "sourceId": "1094306",
     "createdAt": "2026-03-11T07:01:00Z"
   },
   {
-    "name": "DiscPass",
+    "name": "Prova",
     "category": "writing",
-    "description": "Buy, Sell, Trade discgolf marketplace",
-    "url": "https://www.producthunt.com/r/JUR74L3HB2SVIP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "Upload your photo and try on any outfit with AI",
+    "url": "https://www.producthunt.com/r/SQ2UFNNES66IMO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
     "votes": 0,
     "tags": [
-      "Sports",
+      "Fashion",
+      "Artificial Intelligence",
       "Shopping"
     ],
     "source": "producthunt",
-    "sourceId": "1094698",
+    "sourceId": "1095015",
     "createdAt": "2026-03-11T07:01:00Z"
   },
   {
-    "name": "R&D eLynceus Inc",
+    "name": "Just Track",
     "category": "writing",
-    "description": "Features which can save your Life and People you care about",
-    "url": "https://www.producthunt.com/r/VD245DN7HBPSNR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "A simple habit tracker without accounts, ads or distractions",
+    "url": "https://www.producthunt.com/r/WQAHDPPV3VNHLF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
     "votes": 0,
     "tags": [
-      "Tech",
-      "Home security",
-      "Security"
+      "Android",
+      "Productivity"
     ],
     "source": "producthunt",
-    "sourceId": "1094712",
+    "sourceId": "1094257",
     "createdAt": "2026-03-11T07:01:00Z"
   },
   {
-    "name": "QR Hound",
+    "name": "Liquid Canvas",
     "category": "writing",
-    "description": "Dynamic QR codes with analytics, hosted pages, team tools",
-    "url": "https://www.producthunt.com/r/2LCYGN2ADOHPTB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "Transform Your TV into a Digital Art Gallery",
+    "url": "https://www.producthunt.com/r/5WRB3B4LKDKZAA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
     "votes": 0,
     "tags": [
-      "Advertising",
-      "SaaS"
+      "Android",
+      "Video Streaming",
+      "Digital Art"
     ],
     "source": "producthunt",
-    "sourceId": "1094646",
+    "sourceId": "1094216",
     "createdAt": "2026-03-11T07:01:00Z"
   },
   {
-    "name": "Lyric Lab",
+    "name": "WallArt – Personal Wallpapers",
     "category": "writing",
-    "description": "Train AI to write studio-ready lyrics in your exact style",
-    "url": "https://www.producthunt.com/r/UBHTKLR2SR7S2M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "Browse wallpapers in anime, ai-generated and many styles.",
+    "url": "https://www.producthunt.com/r/XXYK7PU7Z76KRB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
     "votes": 0,
     "tags": [
-      "Music",
-      "SaaS",
-      "Artificial Intelligence"
+      "Android",
+      "Wallpaper"
     ],
     "source": "producthunt",
-    "sourceId": "1094650",
-    "createdAt": "2026-03-11T07:01:00Z"
-  },
-  {
-    "name": "Berth",
-    "category": "writing",
-    "description": "Berth – One-command deploys for AI-generated code",
-    "url": "https://www.producthunt.com/r/F5I6ZWBSAGWICA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
-    "rating": 3.5,
-    "votes": 0,
-    "tags": [
-      "Open Source",
-      "Developer Tools",
-      "Artificial Intelligence"
-    ],
-    "source": "producthunt",
-    "sourceId": "1094647",
-    "createdAt": "2026-03-11T07:01:00Z"
-  },
-  {
-    "name": "Excel File Merger",
-    "category": "writing",
-    "description": "Merge Excel files in seconds — right in your browser",
-    "url": "https://www.producthunt.com/r/TC5NAPEFLWITQS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
-    "rating": 3.5,
-    "votes": 0,
-    "tags": [
-      "Web App",
-      "Productivity",
-      "Spreadsheets"
-    ],
-    "source": "producthunt",
-    "sourceId": "1094662",
+    "sourceId": "1094874",
     "createdAt": "2026-03-11T07:01:00Z"
   }
 ];
@@ -256,12 +305,12 @@ export default function WritingTools() {
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-4xl font-bold">最新AI写作工具</h1>
         <div className="text-sm text-gray-400">
-          最后更新：2026/3/11
+          最后更新：2026/3/12
         </div>
       </div>
       
       <p className="text-xl text-gray-600 mb-8">
-        我们从ProductHunt实时抓取了最新、最热门的AI写作工具，共15款。
+        我们从ProductHunt实时抓取了最新、最热门的AI写作工具，共18款。
         每天更新，确保你第一时间发现创新产品。
       </p>
 
@@ -275,16 +324,16 @@ export default function WritingTools() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">No more vibe coding in the blind</h2>
-      <p class="text-gray-600 mb-4">Summon your army of elves</p>
+      <h2 class="text-2xl font-semibold mb-2">Fort</h2>
+      <p class="text-gray-600 mb-4">Fort tracks strength for people who care about longevity.</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Open Source</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Developer Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">GitHub</span>
-        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 50 票</span>
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Health & Fitness</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Wearables</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Biohacking</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 64 票</span>
       </div>
       <div class="flex items-center justify-between">
-        <span class="text-yellow-500">⭐ 4</span>
+        <span class="text-yellow-500">⭐ 4.1</span>
         <a 
-          href="https://www.producthunt.com/r/C3O62EEQVHMNFK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/I3267GESCPKFU2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -295,16 +344,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">Delx</h2>
-      <p class="text-gray-600 mb-4">Ops protocol for AI agents — recovery & free tools</p>
+      <h2 class="text-2xl font-semibold mb-2">PolyMRR</h2>
+      <p class="text-gray-600 mb-4">Polymarket but for indie startups.</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">API</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Developer Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
-        
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">SaaS</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Games</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 20 票</span>
       </div>
       <div class="flex items-center justify-between">
-        <span class="text-yellow-500">⭐ 3.5</span>
+        <span class="text-yellow-500">⭐ 3.7</span>
         <a 
-          href="https://www.producthunt.com/r/G6UXOAZILDUTDF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/3HWKWT5N3K5HB2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -315,16 +364,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">EchoMind</h2>
-      <p class="text-gray-600 mb-4">Artificial Intelligence Data Analytics Self Improvement</p>
+      <h2 class="text-2xl font-semibold mb-2">XPAND</h2>
+      <p class="text-gray-600 mb-4">Manages your money for you. Forget manual logging.</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Productivity</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Data & Analytics</span>
-        
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Email</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Payments</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Money</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 9 票</span>
       </div>
       <div class="flex items-center justify-between">
-        <span class="text-yellow-500">⭐ 3.5</span>
+        <span class="text-yellow-500">⭐ 3.6</span>
         <a 
-          href="https://www.producthunt.com/r/GTHZQGWYCI5MZQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/IDTNTXKJOITDT5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -335,16 +384,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">Readzip — Reading Time & Speed Tracker</h2>
-      <p class="text-gray-600 mb-4">Know exactly how long before you read.</p>
+      <h2 class="text-2xl font-semibold mb-2">Froquiz</h2>
+      <p class="text-gray-600 mb-4">Free quiz platform to prep for tech interviews</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Chrome Extensions</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Productivity</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Education</span>
-        
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Productivity</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Education</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Developer Tools</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 7 票</span>
       </div>
       <div class="flex items-center justify-between">
-        <span class="text-yellow-500">⭐ 3.5</span>
+        <span class="text-yellow-500">⭐ 3.6</span>
         <a 
-          href="https://www.producthunt.com/r/LO5LNNPEKWZMPP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/UQF3M7M4AVQROP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -355,16 +404,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">Talk4Now</h2>
-      <p class="text-gray-600 mb-4">Talk4now is a language-learning platform with natives</p>
+      <h2 class="text-2xl font-semibold mb-2">Rise</h2>
+      <p class="text-gray-600 mb-4">A Daily Planner for the Agentic Era.</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Education</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Languages</span>
-        
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Productivity</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Menu Bar Apps</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Apple</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 7 票</span>
       </div>
       <div class="flex items-center justify-between">
-        <span class="text-yellow-500">⭐ 3.5</span>
+        <span class="text-yellow-500">⭐ 3.6</span>
         <a 
-          href="https://www.producthunt.com/r/XPPABHZCEBYESV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/FXYKB554IODFKX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -375,16 +424,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">StatementFlow AI</h2>
-      <p class="text-gray-600 mb-4">Turn bank statement PDFs into clean, import-ready CSVs</p>
+      <h2 class="text-2xl font-semibold mb-2">Clause</h2>
+      <p class="text-gray-600 mb-4">Understand contract clauses before you sign</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Productivity</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Fintech</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
-        
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">SaaS</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Legal</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 3 票</span>
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/UMQ6HRLFZTIK6T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/J3J2A5BKJ3YIP2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -395,16 +444,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">DesiPG</h2>
-      <p class="text-gray-600 mb-4">Connect property owners with guests. Manage bookings.</p>
+      <h2 class="text-2xl font-semibold mb-2">Gear Browser 7.0</h2>
+      <p class="text-gray-600 mb-4">Web Extension, AI features, and new design</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Productivity</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">User Experience</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Travel</span>
-        
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">User Experience</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Tech</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 2 票</span>
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/D4PL6NYJKA6X3A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/IP4RIPEFNMXRIE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -415,16 +464,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">Bariatric Surgeon UK</h2>
-      <p class="text-gray-600 mb-4">Expert Weight Loss Surgery and Bariatric Care in London</p>
+      <h2 class="text-2xl font-semibold mb-2">AyKa AI</h2>
+      <p class="text-gray-600 mb-4">WhatsApp AI chatbots & workflow automation for India</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Health & Fitness</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Health</span>
-        
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Productivity</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Messaging</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 2 票</span>
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/OLNM7RWK5OSNOM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/PH42XAD2Y3L36D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -435,16 +484,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">DevsUnite</h2>
-      <p class="text-gray-600 mb-4">Resume Analysis | Mock Interview | Cover Letter | Profile</p>
+      <h2 class="text-2xl font-semibold mb-2">SwiftList</h2>
+      <p class="text-gray-600 mb-4">Upload once. List everywhere. Earn from your aesthetic.</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Hiring</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Tech</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Career</span>
-        
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">E-Commerce</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">YouTube</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 2 票</span>
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/DAQCUOWWJHM7IW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/3YJGE5Z7FHY2FT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -455,16 +504,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">DiscPass</h2>
-      <p class="text-gray-600 mb-4">Buy, Sell, Trade discgolf marketplace</p>
+      <h2 class="text-2xl font-semibold mb-2">Level Up Classroom</h2>
+      <p class="text-gray-600 mb-4">The AI-Powered Gamified Gradebook that does EVERYTHING</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Sports</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Shopping</span>
-        
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Education</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Online Learning</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 2 票</span>
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/JUR74L3HB2SVIP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/QDNGWNO6INUGIV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -475,16 +524,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">R&D eLynceus Inc</h2>
-      <p class="text-gray-600 mb-4">Features which can save your Life and People you care about</p>
+      <h2 class="text-2xl font-semibold mb-2">Knottd</h2>
+      <p class="text-gray-600 mb-4">Meet Franck — the world's first AI wedding planner</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Tech</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Home security</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Security</span>
-        
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Android</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Productivity</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 1 票</span>
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/VD245DN7HBPSNR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/DZIJAERCOBLMZM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -495,16 +544,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">QR Hound</h2>
-      <p class="text-gray-600 mb-4">Dynamic QR codes with analytics, hosted pages, team tools</p>
+      <h2 class="text-2xl font-semibold mb-2">AI Work App</h2>
+      <p class="text-gray-600 mb-4">AI Apps for Professional Work</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Advertising</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">SaaS</span>
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Android</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Productivity</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
         
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/2LCYGN2ADOHPTB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/WUUEG4OESTUGM2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -515,16 +564,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">Lyric Lab</h2>
-      <p class="text-gray-600 mb-4">Train AI to write studio-ready lyrics in your exact style</p>
+      <h2 class="text-2xl font-semibold mb-2">NutriTracker</h2>
+      <p class="text-gray-600 mb-4">Less tracking. More coaching. Real progress.</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Music</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">SaaS</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Health & Fitness</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Bots</span>
         
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/UBHTKLR2SR7S2M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/HNQVXGBUWOH54O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -535,16 +584,16 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">Berth</h2>
-      <p class="text-gray-600 mb-4">Berth – One-command deploys for AI-generated code</p>
+      <h2 class="text-2xl font-semibold mb-2">Guitar</h2>
+      <p class="text-gray-600 mb-4">Vibe tuning LLMs</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Open Source</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Developer Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Developer Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Vibe coding</span>
         
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/F5I6ZWBSAGWICA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/HF24FSVLS24ACR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -555,16 +604,76 @@ export default function WritingTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">Excel File Merger</h2>
-      <p class="text-gray-600 mb-4">Merge Excel files in seconds — right in your browser</p>
+      <h2 class="text-2xl font-semibold mb-2">Prova</h2>
+      <p class="text-gray-600 mb-4">Upload your photo and try on any outfit with AI</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Web App</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Productivity</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Spreadsheets</span>
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Fashion</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Shopping</span>
         
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/TC5NAPEFLWITQS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/SQ2UFNNES66IMO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          target="_blank" 
+          rel="nofollow sponsored"
+          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+        >
+          访问官网
+        </a>
+      </div>
+    </div>
+  
+    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
+      <h2 class="text-2xl font-semibold mb-2">Just Track</h2>
+      <p class="text-gray-600 mb-4">A simple habit tracker without accounts, ads or distractions</p>
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Android</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Productivity</span>
+        
+      </div>
+      <div class="flex items-center justify-between">
+        <span class="text-yellow-500">⭐ 3.5</span>
+        <a 
+          href="https://www.producthunt.com/r/WQAHDPPV3VNHLF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          target="_blank" 
+          rel="nofollow sponsored"
+          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+        >
+          访问官网
+        </a>
+      </div>
+    </div>
+  
+    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
+      <h2 class="text-2xl font-semibold mb-2">Liquid Canvas</h2>
+      <p class="text-gray-600 mb-4">Transform Your TV into a Digital Art Gallery</p>
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Android</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Video Streaming</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Digital Art</span>
+        
+      </div>
+      <div class="flex items-center justify-between">
+        <span class="text-yellow-500">⭐ 3.5</span>
+        <a 
+          href="https://www.producthunt.com/r/5WRB3B4LKDKZAA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          target="_blank" 
+          rel="nofollow sponsored"
+          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+        >
+          访问官网
+        </a>
+      </div>
+    </div>
+  
+    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
+      <h2 class="text-2xl font-semibold mb-2">WallArt – Personal Wallpapers</h2>
+      <p class="text-gray-600 mb-4">Browse wallpapers in anime, ai-generated and many styles.</p>
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Android</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Wallpaper</span>
+        
+      </div>
+      <div class="flex items-center justify-between">
+        <span class="text-yellow-500">⭐ 3.5</span>
+        <a 
+          href="https://www.producthunt.com/r/XXYK7PU7Z76KRB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"

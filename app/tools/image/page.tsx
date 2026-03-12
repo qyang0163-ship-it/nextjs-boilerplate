@@ -1,59 +1,27 @@
-// 由 OpenClaw 自动生成 - 2026-03-11
+// 由 OpenClaw 自动生成 - 2026-03-12
 export const metadata = {
   title: '2026年最新AI图像工具推荐',
-  description: '实时从ProductHunt抓取最新AI图像工具，包括when 、EXUtil - Lightweight Free Online Tools、Perfect Caricature等。每日更新，发现创新产品。',
-  keywords: 'AI图像工具,when ,EXUtil - Lightweight Free Online Tools,Perfect Caricature,人工智能,图像软件',
+  description: '实时从ProductHunt抓取最新AI图像工具，包括unMix - Vocal Remover等。每日更新，发现创新产品。',
+  keywords: 'AI图像工具,unMix - Vocal Remover,人工智能,图像软件',
 };
 
 export default function ImageTools() {
   const tools = [
   {
-    "name": "when ",
+    "name": "unMix - Vocal Remover",
     "category": "image",
-    "description": "Write letters delivered at life's most meaningful moments.",
-    "url": "https://www.producthunt.com/r/2PUBYN3JLTAOIF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
-    "rating": 3.5,
-    "votes": 2,
-    "tags": [
-      "Design Tools",
-      "Writing",
-      "Community"
-    ],
-    "source": "producthunt",
-    "sourceId": "1093483",
-    "createdAt": "2026-03-10T07:01:00Z"
-  },
-  {
-    "name": "EXUtil - Lightweight Free Online Tools",
-    "category": "image",
-    "description": "Web Tools, Online Tools, Lightweight Tools, Office Assistant",
-    "url": "https://www.producthunt.com/r/NA5EYSN2DFSEQV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "vocal remover, ai vocal remover",
+    "url": "https://www.producthunt.com/r/3YMAQZPCWJFQZ7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
     "votes": 0,
     "tags": [
+      "Android",
       "Design Tools",
-      "User Experience",
-      "Developer Tools"
+      "Music"
     ],
     "source": "producthunt",
-    "sourceId": "1093247",
-    "createdAt": "2026-03-10T07:01:00Z"
-  },
-  {
-    "name": "Perfect Caricature",
-    "category": "image",
-    "description": "Create recognizable caricatures from photos.",
-    "url": "https://www.producthunt.com/r/CTZO33NOIGOY4T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
-    "rating": 3.5,
-    "votes": 0,
-    "tags": [
-      "Design Tools",
-      "Photography",
-      "Artificial Intelligence"
-    ],
-    "source": "producthunt",
-    "sourceId": "1090691",
-    "createdAt": "2026-03-10T07:01:00Z"
+    "sourceId": "1094330",
+    "createdAt": "2026-03-11T07:01:00Z"
   }
 ];
 
@@ -68,12 +36,12 @@ export default function ImageTools() {
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-4xl font-bold">最新AI图像工具</h1>
         <div className="text-sm text-gray-400">
-          最后更新：2026/3/11
+          最后更新：2026/3/12
         </div>
       </div>
       
       <p className="text-xl text-gray-600 mb-8">
-        我们从ProductHunt实时抓取了最新、最热门的AI图像工具，共3款。
+        我们从ProductHunt实时抓取了最新、最热门的AI图像工具，共1款。
         每天更新，确保你第一时间发现创新产品。
       </p>
 
@@ -87,56 +55,16 @@ export default function ImageTools() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">when </h2>
-      <p class="text-gray-600 mb-4">Write letters delivered at life's most meaningful moments.</p>
+      <h2 class="text-2xl font-semibold mb-2">unMix - Vocal Remover</h2>
+      <p class="text-gray-600 mb-4">vocal remover, ai vocal remover</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Design Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Writing</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Community</span>
-        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 2 票</span>
-      </div>
-      <div class="flex items-center justify-between">
-        <span class="text-yellow-500">⭐ 3.5</span>
-        <a 
-          href="https://www.producthunt.com/r/2PUBYN3JLTAOIF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
-          target="_blank" 
-          rel="nofollow sponsored"
-          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
-        >
-          访问官网
-        </a>
-      </div>
-    </div>
-  
-    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">EXUtil - Lightweight Free Online Tools</h2>
-      <p class="text-gray-600 mb-4">Web Tools, Online Tools, Lightweight Tools, Office Assistant</p>
-      <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Design Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">User Experience</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Developer Tools</span>
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Android</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Design Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Music</span>
         
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/NA5EYSN2DFSEQV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
-          target="_blank" 
-          rel="nofollow sponsored"
-          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
-        >
-          访问官网
-        </a>
-      </div>
-    </div>
-  
-    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">Perfect Caricature</h2>
-      <p class="text-gray-600 mb-4">Create recognizable caricatures from photos.</p>
-      <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Design Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Photography</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
-        
-      </div>
-      <div class="flex items-center justify-between">
-        <span class="text-yellow-500">⭐ 3.5</span>
-        <a 
-          href="https://www.producthunt.com/r/CTZO33NOIGOY4T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/3YMAQZPCWJFQZ7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
