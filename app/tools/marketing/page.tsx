@@ -1,17 +1,17 @@
-// 由 OpenClaw 自动生成 - 2026-03-13
+// 由 OpenClaw 自动生成 - 2026-03-14
 export const metadata = {
   title: '2026年最新AI营销工具推荐',
-  description: '实时从ProductHunt抓取最新AI营销工具，包括SurfaceLocal等。每日更新，发现创新产品。',
-  keywords: 'AI营销工具,SurfaceLocal,人工智能,营销软件',
+  description: '实时从ProductHunt抓取最新AI营销工具，包括EveryLead等。每日更新，发现创新产品。',
+  keywords: 'AI营销工具,EveryLead,人工智能,营销软件',
 };
 
 export default function MarketingTools() {
   const tools = [
   {
-    "name": "SurfaceLocal",
+    "name": "EveryLead",
     "category": "marketing",
-    "description": "Discover and optimize how your business ranks in AI search",
-    "url": "https://www.producthunt.com/r/SY7XI65ICUFAZR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "One QR code Capture leads, run events, and light up a crowd.",
+    "url": "https://www.producthunt.com/r/R2J64VMXMV7BCK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
     "votes": 0,
     "tags": [
@@ -19,8 +19,8 @@ export default function MarketingTools() {
       "Marketing"
     ],
     "source": "producthunt",
-    "sourceId": "1095913",
-    "createdAt": "2026-03-12T07:01:00Z"
+    "sourceId": "1097020",
+    "createdAt": "2026-03-13T07:01:00Z"
   }
 ];
 
@@ -35,7 +35,7 @@ export default function MarketingTools() {
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-4xl font-bold">最新AI营销工具</h1>
         <div className="text-sm text-gray-400">
-          最后更新：2026/3/13
+          最后更新：2026/3/14
         </div>
       </div>
       
@@ -54,8 +54,8 @@ export default function MarketingTools() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">SurfaceLocal</h2>
-      <p class="text-gray-600 mb-4">Discover and optimize how your business ranks in AI search</p>
+      <h2 class="text-2xl font-semibold mb-2">EveryLead</h2>
+      <p class="text-gray-600 mb-4">One QR code Capture leads, run events, and light up a crowd.</p>
       <div class="flex flex-wrap gap-2 mb-4">
         <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Analytics</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Marketing</span>
         
@@ -63,7 +63,7 @@ export default function MarketingTools() {
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/SY7XI65ICUFAZR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/R2J64VMXMV7BCK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
