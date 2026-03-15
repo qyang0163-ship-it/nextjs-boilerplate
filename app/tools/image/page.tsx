@@ -1,59 +1,43 @@
-// 由 OpenClaw 自动生成 - 2026-03-13
+// 由 OpenClaw 自动生成 - 2026-03-15
 export const metadata = {
   title: '2026年最新AI图像工具推荐',
-  description: '实时从ProductHunt抓取最新AI图像工具，包括Guitar300 SEO Suite、 ClientReply AI、Tattoo Font Generator等。每日更新，发现创新产品。',
-  keywords: 'AI图像工具,Guitar300 SEO Suite, ClientReply AI,Tattoo Font Generator,人工智能,图像软件',
+  description: '实时从ProductHunt抓取最新AI图像工具，包括Claude Code to Figma、Random Luck Club等。每日更新，发现创新产品。',
+  keywords: 'AI图像工具,Claude Code to Figma,Random Luck Club,人工智能,图像软件',
 };
 
 export default function ImageTools() {
   const tools = [
   {
-    "name": "Guitar300 SEO Suite",
+    "name": "Claude Code to Figma",
     "category": "image",
-    "description": "AI that builds SEO traffic systems for your website",
-    "url": "https://www.producthunt.com/r/EWO5OXW4HWPVJS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "Convert code into editable Figma designs in seconds",
+    "url": "https://www.producthunt.com/r/SCIZFS6GQ653UM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
-    "votes": 0,
+    "votes": 1,
     "tags": [
       "Design Tools",
-      "SEO",
-      "SaaS"
+      "User Experience",
+      "Developer Tools"
     ],
     "source": "producthunt",
-    "sourceId": "1095246",
-    "createdAt": "2026-03-12T07:01:00Z"
+    "sourceId": "1082805",
+    "createdAt": "2026-03-14T07:01:00Z"
   },
   {
-    "name": " ClientReply AI",
+    "name": "Random Luck Club",
     "category": "image",
-    "description": "Generate WhatsApp replies, email proposals, bids in seconds",
-    "url": "https://www.producthunt.com/r/X265VHUY3PXFY2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
+    "description": "Free Online Random Generators & Aesthetic Decision Tools",
+    "url": "https://www.producthunt.com/r/J35TY6TCKZ3SDC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
     "rating": 3.5,
     "votes": 0,
     "tags": [
+      "Web App",
       "Design Tools",
-      "Freelance",
-      "Social Media"
+      "Lifestyle"
     ],
     "source": "producthunt",
-    "sourceId": "1095704",
-    "createdAt": "2026-03-12T07:01:00Z"
-  },
-  {
-    "name": "Tattoo Font Generator",
-    "category": "image",
-    "description": "Your story, your style, your perfect font.",
-    "url": "https://www.producthunt.com/r/2DI5UPKO6JEBPV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29",
-    "rating": 3.5,
-    "votes": 0,
-    "tags": [
-      "Design Tools",
-      "Art",
-      "Artificial Intelligence"
-    ],
-    "source": "producthunt",
-    "sourceId": "1095378",
-    "createdAt": "2026-03-12T07:01:00Z"
+    "sourceId": "1097962",
+    "createdAt": "2026-03-14T07:01:00Z"
   }
 ];
 
@@ -68,12 +52,12 @@ export default function ImageTools() {
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-4xl font-bold">最新AI图像工具</h1>
         <div className="text-sm text-gray-400">
-          最后更新：2026/3/13
+          最后更新：2026/3/15
         </div>
       </div>
       
       <p className="text-xl text-gray-600 mb-8">
-        我们从ProductHunt实时抓取了最新、最热门的AI图像工具，共3款。
+        我们从ProductHunt实时抓取了最新、最热门的AI图像工具，共2款。
         每天更新，确保你第一时间发现创新产品。
       </p>
 
@@ -87,16 +71,16 @@ export default function ImageTools() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">Guitar300 SEO Suite</h2>
-      <p class="text-gray-600 mb-4">AI that builds SEO traffic systems for your website</p>
+      <h2 class="text-2xl font-semibold mb-2">Claude Code to Figma</h2>
+      <p class="text-gray-600 mb-4">Convert code into editable Figma designs in seconds</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Design Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">SEO</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">SaaS</span>
-        
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Design Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">User Experience</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Developer Tools</span>
+        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">🔥 1 票</span>
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/EWO5OXW4HWPVJS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/SCIZFS6GQ653UM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -107,36 +91,16 @@ export default function ImageTools() {
     </div>
   
     <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2"> ClientReply AI</h2>
-      <p class="text-gray-600 mb-4">Generate WhatsApp replies, email proposals, bids in seconds</p>
+      <h2 class="text-2xl font-semibold mb-2">Random Luck Club</h2>
+      <p class="text-gray-600 mb-4">Free Online Random Generators & Aesthetic Decision Tools</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Design Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Freelance</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Social Media</span>
+        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Web App</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Design Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Lifestyle</span>
         
       </div>
       <div class="flex items-center justify-between">
         <span class="text-yellow-500">⭐ 3.5</span>
         <a 
-          href="https://www.producthunt.com/r/X265VHUY3PXFY2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
-          target="_blank" 
-          rel="nofollow sponsored"
-          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
-        >
-          访问官网
-        </a>
-      </div>
-    </div>
-  
-    <div class="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
-      <h2 class="text-2xl font-semibold mb-2">Tattoo Font Generator</h2>
-      <p class="text-gray-600 mb-4">Your story, your style, your perfect font.</p>
-      <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Design Tools</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Art</span><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Artificial Intelligence</span>
-        
-      </div>
-      <div class="flex items-center justify-between">
-        <span class="text-yellow-500">⭐ 3.5</span>
-        <a 
-          href="https://www.producthunt.com/r/2DI5UPKO6JEBPV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
+          href="https://www.producthunt.com/r/J35TY6TCKZ3SDC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+aitoolguide+%28ID%3A+278088%29" 
           target="_blank" 
           rel="nofollow sponsored"
           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
